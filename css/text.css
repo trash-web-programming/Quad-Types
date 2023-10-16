@@ -29,15 +29,20 @@ p {
 
 .subtext1 {
     color: #83868F;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .subtext2 {
     color: #83868F;
+    font-size: 16px;
+}
+
+.subtext3 {
+    color: #83868F;
     font-size: 14px;
 }
 
-.subtext {
+.subtext4 {
     color: #83868F;
     font-size: 12px;
 }

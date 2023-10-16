@@ -27,6 +27,30 @@ p {
     font-size: 14px;
 }
 
+.subtext1_medium {
+    color: #83868F;
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext2_medium {
+    color: #83868F;
+    font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext3_medium {
+    color: #83868F;
+    font-size: 14px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext4_medium {
+    color: #83868F;
+    font-size: 12px;
+    font-family: "Pretendard Medium", serif;
+}
+
 .subtext1 {
     color: #83868F;
     font-size: 18px;

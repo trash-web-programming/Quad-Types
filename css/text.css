@@ -1,0 +1,61 @@
+p {
+    font-family: Pretendard, serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+.title1 {
+    font-size: 20px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.title2 {
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.text1 {
+    font-size: 18px;
+}
+
+.text2 {
+    font-size: 16px;
+}
+
+.text3 {
+    font-size: 14px;
+}
+
+.subtext1 {
+    color: #83868F;
+    font-size: 16px;
+}
+
+.subtext2 {
+    color: #83868F;
+    font-size: 14px;
+}
+
+.subtext {
+    color: #83868F;
+    font-size: 12px;
+}
+
+.point_text1 {
+    color: #3063F4;
+    font-size: 20px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.point_text2 {
+    color: #3063F4;
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.point_text3 {
+    color: #3063F4;
+    font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}

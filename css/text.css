@@ -44,43 +44,53 @@ p {
 
 .subtext1 {
     color: #83868F;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .subtext2 {
     color: #83868F;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .subtext3 {
     color: #83868F;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .subtext4 {
+    color: #83868F;
+    font-size: 14px;
+}
+
+.subtext5 {
     color: #83868F;
     font-size: 12px;
 }
 
 .subtext1_medium {
     color: #83868F;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Pretendard Medium", serif;
 }
-
 .subtext2_medium {
     color: #83868F;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Pretendard Medium", serif;
 }
 
 .subtext3_medium {
     color: #83868F;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Pretendard Medium", serif;
 }
 
 .subtext4_medium {
+    color: #83868F;
+    font-size: 14px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext5_medium {
     color: #83868F;
     font-size: 12px;
     font-family: "Pretendard Medium", serif;
@@ -101,5 +111,11 @@ p {
 .point_text3 {
     color: #3063F4;
     font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.depoint_text {
+    color: #DDDDDD;
+    font-size: 14px;
     font-family: "Pretendard Medium", serif;
 }

@@ -1,0 +1,100 @@
+p {
+    font-family: Pretendard, serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+.title1 {
+    font-size: 20px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.title2 {
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.text1 {
+    font-size: 18px;
+}
+
+.text2 {
+    font-size: 16px;
+}
+
+.text3 {
+    font-size: 14px;
+}
+
+.text1_medium {
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.text2_medium {
+    font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.text3_medium {
+    font-size: 14px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext2 {
+    color: #83868F;
+    font-size: 16px;
+}
+
+.subtext3 {
+    color: #83868F;
+    font-size: 14px;
+}
+
+.subtext4 {
+    color: #83868F;
+    font-size: 12px;
+}
+
+.subtext1_medium {
+    color: #83868F;
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext2_medium {
+    color: #83868F;
+    font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext3_medium {
+    color: #83868F;
+    font-size: 14px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.subtext4_medium {
+    color: #83868F;
+    font-size: 12px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.point_text1 {
+    color: #3063F4;
+    font-size: 20px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.point_text2 {
+    color: #3063F4;
+    font-size: 18px;
+    font-family: "Pretendard Medium", serif;
+}
+
+.point_text3 {
+    color: #3063F4;
+    font-size: 16px;
+    font-family: "Pretendard Medium", serif;
+}

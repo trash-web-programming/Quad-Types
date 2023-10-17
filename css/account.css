@@ -79,7 +79,7 @@
     font-family: "Pretendard Medium", serif;
 }
 
-.settings_entity:hover{
+.settings_entity:hover {
     color: #3063F4;
     background-color: #ECF0FC;
 }
@@ -127,7 +127,7 @@
     background: #F6F9FF;
 }
 
-.div_add:hover{
+.div_add:hover {
     background-color: #EDF0FB;
 }
 
@@ -187,7 +187,7 @@
     align-self: stretch;
 }
 
-.body_source:hover{
+.body_source:hover {
     background-color: #E9F0FD;
 }
 
@@ -415,7 +415,7 @@
     height: 24px;
 }
 
-.three_dots{
+.three_dots {
     display: flex;
     width: 30px;
     height: 30px;
@@ -425,6 +425,26 @@
     background-color: #FFF;
 }
 
-.three_dots:hover{
+.three_dots:hover {
     background-color: #F5F5F5;
+}
+
+.main_image {
+    width: 48px;
+    height: 48px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+.main_image_style {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recode_image{
+    width: 24px;
+    height: 24px;
+    border-radius: 70%;
+    overflow: hidden;
 }

@@ -1,19 +1,19 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: Pretendard;
-  box-sizing: border-box;
-  text-decoration: none;
-  cursor:default;
+    padding: 0;
+    margin: 0;
+    font-family: Pretendard;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: default;
 }
 
 body {
-  display: flex;
-  background-color: #F4F7FF;
-  flex-direction: row;
-  overflow: hidden;
-  overflow-x: auto;
-  height: 100%;
+    display: flex;
+    background-color: #F4F7FF;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: auto;
+    height: 100%;
 }
 
 .account_nav {
@@ -61,7 +61,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    align-self: stretch;
 }
 
 .settings {
@@ -77,7 +76,6 @@ body {
     padding: 14px 24px;
     align-items: center;
     gap: 14px;
-    align-self: stretch;
 
     border-radius: 10px;
     background: #FFF;
@@ -97,14 +95,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    align-self: stretch;
 }
 
 .div_google {
     display: flex;
     padding: 14px 151px 18px 24px;
     align-items: center;
-    align-self: stretch;
 
     border-radius: 10px;
     color: #83868F;
@@ -129,8 +125,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 14px;
-    align-self: stretch;
-
     border-radius: 10px;
     background: #F6F9FF;
 }
@@ -144,7 +138,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 60px;
-    align-self: stretch;
 }
 
 .main_style {
@@ -154,7 +147,6 @@ body {
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    align-self: stretch;
 
     border-right: 1px solid #DEE7FF;
     border-left: 1px solid #DEE7FF;
@@ -166,7 +158,6 @@ body {
     padding: 20px 40px;
     align-items: center;
     gap: 10px;
-    align-self: stretch;
 
     border-bottom: 1px solid #DEE7FF;
 }
@@ -184,7 +175,6 @@ body {
     align-items: center;
     gap: 10px;
     flex: 1 0 0;
-    align-self: stretch;
 }
 
 .body_source {
@@ -193,7 +183,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
-    align-self: stretch;
 }
 
 .body_source:hover {
@@ -204,7 +193,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    align-self: stretch;
 }
 
 .row_in_body_source {
@@ -212,7 +200,6 @@ body {
     align-items: center;
     gap: 10px;
     flex: 1 0 0;
-    align-self: stretch;
 }
 
 .text_frame {
@@ -222,7 +209,6 @@ body {
     align-items: flex-start;
     gap: 4px;
     flex: 1 0 0;
-    align-self: stretch;
 }
 
 .line {
@@ -451,14 +437,15 @@ body {
     object-fit: cover;
 }
 
-.recode_image{
+.recode_image {
     width: 24px;
     height: 24px;
     border-radius: 70%;
     overflow: hidden;
 }
+
 .day_text {
-    color:  #DDD;
+    color: #DDD;
     font-family: "Pretendard Medium";
     font-size: 14px;
     font-style: normal;

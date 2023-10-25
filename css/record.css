@@ -136,3 +136,9 @@ img[class*="minHeight"] {
 .mainArticle > * {
   margin: 10px 10px;
 }
+#icon {
+  min-width: 500px;
+}
+#icon > img {
+  height: 48px;
+}

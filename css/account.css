@@ -448,3 +448,11 @@
     border-radius: 70%;
     overflow: hidden;
 }
+.day_text {
+    color:  #DDD;
+    font-family: "Pretendard Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

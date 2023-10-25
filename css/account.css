@@ -1,32 +1,19 @@
-<<<<<<< Updated upstream
 * {
-  padding: 0;
-  margin: 0;
-  font-family: Pretendard;
-  box-sizing: border-box;
-  text-decoration: none;
-  cursor:default;
+    padding: 0;
+    margin: 0;
+    font-family: Pretendard;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: default;
 }
-=======
-.background_body {
-    display: flex;
-    width: 1920px;
-    height: 1080px;
-
-    overflow: hidden;
-    height: 100%;
-
-    justify-content: center;
-    align-items: flex-start;
->>>>>>> Stashed changes
 
 body {
-  display: flex;
-  background-color: #F4F7FF;
-  flex-direction: row;
-  overflow: hidden;
-  overflow-x: auto;
-  height: 100%;
+    display: flex;
+    background-color: #F4F7FF;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: auto;
+    height: 100%;
 }
 
 .account_nav {
@@ -450,14 +437,15 @@ body {
     object-fit: cover;
 }
 
-.recode_image{
+.recode_image {
     width: 24px;
     height: 24px;
     border-radius: 70%;
     overflow: hidden;
 }
+
 .day_text {
-    color:  #DDD;
+    color: #DDD;
     font-family: "Pretendard Medium";
     font-size: 14px;
     font-style: normal;

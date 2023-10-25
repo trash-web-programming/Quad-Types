@@ -1,11 +1,19 @@
-.background_body {
-    display: flex;
-    width: 1920px;
-    height: 1080px;
-    justify-content: center;
-    align-items: flex-start;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Pretendard;
+  box-sizing: border-box;
+  text-decoration: none;
+  cursor:default;
+}
 
-    background-color: #F4F7FF;
+body {
+  display: flex;
+  background-color: #F4F7FF;
+  flex-direction: row;
+  overflow: hidden;
+  overflow-x: auto;
+  height: 100%;
 }
 
 .account_nav {
@@ -13,8 +21,8 @@
     padding: 0px 20px;
     flex-direction: column;
     align-items: flex-end;
-    flex: 1 0 0;
-    align-self: stretch;
+    width: 100%;
+    height: 100%;
 }
 
 .nav_background {
@@ -142,6 +150,7 @@
 .main_style {
     display: flex;
     width: 700px;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
@@ -255,8 +264,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    flex: 1 0 0;
-    align-self: stretch;
+    width: 100%;
+    height: 100%;
 }
 
 .user_account {

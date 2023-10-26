@@ -136,3 +136,12 @@ img[class*="minHeight"] {
 .mainArticle > * {
   margin: 10px 10px;
 }
+span {
+  background-color: rgba(222, 231, 255, 1);
+  color: rgba(48, 99, 244, 1);
+  padding: 5px;
+  border-radius: 10px;
+}
+.ppap {
+  font-size: larger;
+}

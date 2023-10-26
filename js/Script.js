@@ -7,4 +7,4 @@ modalOpenButton.addEventListener("click", () => {
   } else {
     modal.classList.add("hidden");
   }
-}
+})

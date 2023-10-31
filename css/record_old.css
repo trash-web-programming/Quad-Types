@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #F4F7FF;
+  display: flex;
+  flex-direction: row;
+  font-family: Pretendard, sans-serif;
+}
+
+body > div > * {
+  margin: 0 5px;
+}
+
+nav {
+  background-color: white;
+  max-width: 300px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset > button {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+button > svg {
+  margin-right: 10px;
+}
+
+button > img {
+  height: 50%;
+  margin-right: 10%;
+}
+
+button[class*='add_btn'] > img {
+  height: 75%;
+  margin: auto auto;
+}
+
+button[class*='hoverHandler']:hover {
+  background-color: #ECF0FC;
+}
+
+.add_btn {
+  background-color: #F6F9FF;
+}
+
+section {
+  background-color: white;
+}
+section[class*="mid"] {
+  min-width: 700px;
+}
+section[class*="right"] {
+  background-color: transparent;
+}
+article {
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+legend {
+  font-size: larger;
+  margin: auto;
+}
+.titleBar {
+  margin-top: 10px;
+}
+.titleBar > * {
+  margin-left: 10px;
+}
+.upDown {
+  display: flex;
+  align-items: center;
+}
+
+.blueText {
+  color: #3063F4;
+}
+
+.right {
+  border-radius: 10px;
+  min-width: 350px;
+}
+.bookmark {
+  display: flex;
+  flex-direction: column;
+}
+.bookmark > div {
+  display: flex;
+}
+.bookmark img {
+  height: 24px;
+}
+.searchRecord img {
+  height: 24px;
+}
+.rightest {
+  margin-left: auto;
+}
+.gray {
+  color: rgb(128, 128, 128);
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.noMargin {
+  margin: 0 0;
+}
+.article {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+img[class*="minHeight"] {
+  height: 24px;
+}
+.mainArticle > * {
+  margin: 10px 10px;
+}
+span {
+  background-color: rgba(222, 231, 255, 1);
+  color: rgba(48, 99, 244, 1);
+  padding: 5px;
+  border-radius: 10px;
+}
+.ppap {
+  font-size: larger;
+}
+#container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}

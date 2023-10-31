@@ -8,15 +8,3 @@ modalOpenButton.addEventListener("click", () => {
     modal.classList.add("hidden");
   }
 });
-
-const addModal = document.querySelectorAll("#add-modal-background");
-const addModalOpenButton = document.querySelectorAll("#add-engines-list");
-const addModalCloseButton = document.querySelectorAll(".closeModal");
-
-addModalOpenButton.addEventListener("click", () => {
-  addModal.classList.remove("hidden");
-});
-
-addModalCloseButton.addEventListener("click", () => {
-  addModal.classList.add("hidden");
-});

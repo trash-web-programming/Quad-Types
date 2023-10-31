@@ -10,6 +10,34 @@
     <title>QuadTypo</title>
   </head>
   <body>
+    <div id="add-modal-background">
+      <div class="modal-box">
+        <div class="modal-header">검색엔진 사이트 추가</div>
+        <div class="modal-main">
+          <div class="modal-main-site">
+            <div class="add-image">
+              <img src="../icon/plus_image.svg">
+            </div>
+            <div class="add-sitename">
+              사이트명
+              <input type="text" class="input-sitename">
+            </div>
+          </div>
+          <div class="modal-main-url">
+            URL
+            <input type="text" class="input-url">
+          </div>
+        </div>
+        <div class="modal-button-box">
+          <a href="./Index.html" style="width: 100%; cursor: pointer;">
+            <button id="cancel-button">취소</button>
+          </a>
+          <a href="./Index.html" style="width: 100%; cursor: pointer;">
+            <button id="accept-button">확인</button>
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="left-container">
       <nav class="side-menubar">
         <div class="logo-box">
@@ -29,11 +57,9 @@
                 Naver
               </div>
             </div>
-            <a href="./Index-modal.html" id="add-engines">
-              <button id="add-engines-list">
-                <img class="plus-icon" src="../icon/plus.svg" />
-              </button>
-            </a>
+            <button id="add-engines-list">
+              <img class="plus-icon" src="../icon/plus.svg" />
+            </button>
           </div>
           <div class="search-engines-box">
             <div class="engines-box-header">OTHER ENGINES</div>
@@ -47,13 +73,10 @@
                 TISTORY
               </div>
             </div>
-            <a href="./Index-modal.html" id="add-engines">
-              <button id="add-engines-list">
-                <img class="plus-icon" src="../icon/plus.svg" />
-              </button>
-            </a>
+            <button id="add-engines-list">
+              <img class="plus-icon" src="../icon/plus.svg" />
+            </button>
           </div>
-          
           <a class="engines-list" href="./settings.html">
             <img class="search-logo-icon" src="../icon/setting.svg" />
             설정
@@ -282,7 +305,7 @@
           </div>
           <img class="delete-icon" src="../icon/delete.svg">
         </div>
-        <div class="more-history"><a href="./record.html" class="more-history-button">더보기</a></div>
+        <div class="more-history">더보기</div>
       </div>
       <div class="aside-container">
         <div class="aside-header">즐겨찾기</div>

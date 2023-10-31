@@ -7,6 +7,15 @@
   cursor: default;
 }
 
+.more-history-button {
+  color: #3063F4;
+  cursor: pointer;
+}
+
+.more-history-button:hover {
+  color: #2450ca;
+}
+
 body {
   display: flex;
   background-color: #F4F7FF;
@@ -135,6 +144,9 @@ body {
   cursor: pointer;
 }
 
+#add-engines {
+  width: 100%;
+}
 
 
 /*중앙*/
@@ -753,8 +765,4 @@ option {
 
 #accept-button:hover {
   background-color: #cdd8f7;
-}
-
-#add-modal-background.hidden {
-  display: none;
 }

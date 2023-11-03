@@ -766,3 +766,7 @@ option {
 #accept-button:hover {
   background-color: #cdd8f7;
 }
+
+.list-box-a {
+  width: 100%;
+}
